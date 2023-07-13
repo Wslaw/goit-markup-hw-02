@@ -186,7 +186,7 @@ body {
 
 .footer {
   background: var(--navyblue);
-  color: var(--cornflower, #e7e9fc);
+  color: var(--cornflower);
 
   font-size: 16px;
   font-style: normal;
