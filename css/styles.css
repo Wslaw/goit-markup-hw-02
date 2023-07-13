@@ -77,7 +77,7 @@ body {
 .link.item:hover,
 .link.item:focus {
   color: var(--ocean);
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .link.item.current {
