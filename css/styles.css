@@ -25,6 +25,7 @@ body {
 
 .list {
   list-style: none;
+  color: var(--grey);
 }
 
 .link {
@@ -209,7 +210,7 @@ body {
   text-transform: capitalize;
 }
 
-.cards-list {
+.cards .cards-list {
   background-color: var(--white);
 }
 
