@@ -90,7 +90,7 @@ body {
 
 .contacts:hover,
 .contacts:focus {
-  color: var(--iris);
+  color: var(--ocean);
 }
 
 .hero {
