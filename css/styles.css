@@ -25,7 +25,7 @@ body {
 
 .list {
   list-style: none;
-  color: var(--grey);
+  /* color: var(--grey); */
 }
 
 .link {
@@ -35,6 +35,9 @@ body {
 .nav-page {
   background: var(--white);
 }
+/* .logo {
+  background: var(--white);
+} */
 
 .logo-web {
   color: var(--iris);
@@ -63,7 +66,7 @@ body {
 
 .item {
   color: var(--navyblue);
-  /* text-align: center; */
+  text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
