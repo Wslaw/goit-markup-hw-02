@@ -15,13 +15,12 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--slate);
-  background-color: var(--white);
-
   font-size: 16px;
-
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
+
+  color: var(--slate);
+  background-color: var(--white);
 }
 
 .list {
@@ -49,7 +48,6 @@ body {
 
 .logo-studio {
   color: var(--navyblue, #2e2f42);
-
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -64,7 +62,7 @@ body {
 
 .item {
   color: var(--navyblue);
-  text-align: center;
+  /* text-align: center; */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -74,7 +72,6 @@ body {
 .item:hover,
 .item:focus {
   color: var(--ocean);
-
   text-decoration: underline;
 }
 
@@ -96,8 +93,7 @@ body {
 .hero {
   background: var(--navyblue, #2e2f42);
   color: var(--white);
-  text-align: center;
-
+  /* text-align: center; */
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
@@ -114,9 +110,8 @@ body {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
-  border-radius: 4px;
   background: var(--iris, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
 }
 /* hover */
 .hero-btn:hover,
@@ -130,9 +125,8 @@ body {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
-  border-radius: 4px;
   background: var(--ocean, #404bbf);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
 }
 
 .hero-feature {
@@ -158,7 +152,7 @@ body {
 
 .title {
   color: #2e2f42;
-  text-align: center;
+  /* text-align: center; */
 
   font-size: 36px;
   font-style: normal;
@@ -176,8 +170,8 @@ body {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
-  letter-spacing: 0.4px;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
 }
 
 .subtitle-text {
