@@ -253,7 +253,8 @@ body {
   letter-spacing: 0.04em;
 }
 
-.btn-text:hover {
+.btn-text:hover,
+.btn-text:focus {
   color: var(--white);
   background-color: var(--ocean);
 }
