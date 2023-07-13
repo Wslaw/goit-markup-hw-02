@@ -65,7 +65,7 @@ body {
   text-transform: uppercase;
 }
 
-.item {
+.link.item {
   color: var(--navyblue);
   text-align: center;
   font-size: 16px;
@@ -74,13 +74,13 @@ body {
   letter-spacing: 0.02em;
 }
 
-.item:hover,
-.item:focus {
+.link.item:hover,
+.link.item:focus {
   color: var(--ocean);
   text-decoration: underline;
 }
 
-.item.current {
+.link.item.current {
   color: var(--iris);
 }
 
