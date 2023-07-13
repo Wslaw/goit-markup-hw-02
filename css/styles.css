@@ -25,9 +25,9 @@ body {
 .list {
   list-style: none;
 }
-.list.link {
+/* .list.link {
   color: var(--navyblue);
-}
+} */
 
 .link {
   text-decoration: none;
