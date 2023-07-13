@@ -80,9 +80,9 @@ body {
   /* text-decoration: underline; */
 }
 
-.link.item.current {
+/* .link.item.current {
   color: var(--iris);
-}
+} */
 
 .contacts {
   color: var(--slate);
