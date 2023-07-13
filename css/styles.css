@@ -7,8 +7,8 @@
   --lightslate: #8e8f99;
   --cornflower: #e7e9fc;
   --cloud: #f4f4fd;
-  --navybluemodal: #2e2f42;
-  --grey: #2e2f42;
+  /* --navybluemodal: #2e2f42;
+  --grey: #2e2f42; */
   --white: #fff;
   --dairy: #fcfcfc;
 }
@@ -26,9 +26,15 @@ body {
 .list {
   list-style: none;
 }
- {
+.item-studio {
+  color: var(--navyblue);
+}
+/* .item-portfolio {
   color: var(--grey);
 }
+.item-contacts {
+  color: var(--grey);
+} */
 
 .link {
   text-decoration: none;
