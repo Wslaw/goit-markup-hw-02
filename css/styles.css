@@ -85,6 +85,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.adres {
+  font-style: normal;
+}
+
 .contacts:hover,
 .contacts:focus {
   color: var(--ocean);
@@ -93,17 +97,22 @@ body {
 .hero {
   background: var(--navyblue);
   color: var(--white);
-  /* text-align: center; */
+}
+
+.hero-title {
+  text-align: center;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
+
 /* default */
 .hero-btn {
+  cursor: pointer;
   color: var(--white, #fff);
-  /* Button Text */
+
   font-family: inherit;
   font-size: 16px;
   font-style: normal;
@@ -133,7 +142,7 @@ body {
 
   font-size: 20px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
@@ -150,12 +159,12 @@ body {
 
 .title {
   color: var(--navyblue);
-  /* text-align: center; */
 
+  text-align: center;
   font-size: 36px;
   font-style: normal;
-  font-weight: 00;
-  line-height: 1.1;
+  font-weight: 700;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -184,6 +193,26 @@ body {
   letter-spacing: 0.02em;
 }
 
+.cards {
+  background-color: var(--cloud);
+}
+
+.cards-title {
+  color: var(--navyblue);
+
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.cards-list {
+  background-color: var(--white);
+}
+
 .footer {
   background: var(--navyblue);
   color: var(--cornflower);
@@ -206,8 +235,14 @@ body {
   text-transform: uppercase;
 }
 
+.footer-text {
+  color: var(--cloud);
+}
+
 .btn-text {
+  cursor: pointer;
   color: var(--iris);
+  background-color: var(--cloud);
   text-align: center;
 
   font-family: inherit;
@@ -216,6 +251,11 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+}
+
+.btn-text:hover {
+  color: var(--white);
+  background-color: var(--ocean);
 }
 
 .title-portfolio {
