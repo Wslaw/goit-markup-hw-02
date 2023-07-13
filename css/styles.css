@@ -26,7 +26,7 @@ body {
 .list {
   list-style: none;
 }
-.color {
+ {
   color: var(--grey);
 }
 
@@ -37,9 +37,6 @@ body {
 .nav-page {
   background: var(--white);
 }
-/* .logo {
-  background: var(--white);
-} */
 
 .logo-web {
   color: var(--iris);
@@ -62,11 +59,14 @@ body {
   text-transform: uppercase;
 }
 
-.item.current {
+.item-studio.current {
+  color: var(--iris);
+}
+.item-portfolio.current {
   color: var(--iris);
 }
 
-.item {
+.item-studio .item-portfolio .item-contacts {
   color: var(--navyblue);
   text-align: center;
   font-size: 16px;
@@ -75,8 +75,20 @@ body {
   letter-spacing: 0.02em;
 }
 
-.item:hover,
-.item:focus {
+.item-studio:hover,
+.item-studio:focus {
+  color: var(--ocean);
+  text-decoration: underline;
+}
+
+.item-portfolio:hover,
+.item-portfolio:focus {
+  color: var(--ocean);
+  text-decoration: underline;
+}
+
+.item-contacts:hover,
+.item-contacts:focus {
   color: var(--ocean);
   text-decoration: underline;
 }
