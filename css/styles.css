@@ -67,6 +67,9 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
+.item.current {
+  color: var(--iris);
+}
 
 .item {
   color: var(--navyblue);
