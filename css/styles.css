@@ -211,7 +211,7 @@ body {
   text-transform: capitalize;
 }
 
-.cards .cards-list {
+.cards-list {
   background-color: var(--white);
 }
 
