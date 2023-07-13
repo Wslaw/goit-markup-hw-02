@@ -62,8 +62,13 @@ body {
   text-transform: uppercase;
 }
 
-.item.current {
-  color: var(--iris);
+.item-studio {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .item {
@@ -79,6 +84,20 @@ body {
 .item:focus {
   color: var(--ocean);
   text-decoration: underline;
+}
+
+.item-studio:hover,
+.item-studio:focus {
+  color: var(--ocean);
+  text-decoration: underline;
+}
+
+.item.current {
+  color: var(--iris);
+}
+
+.item-studio.current {
+  color: var(--iris);
 }
 
 .address {
