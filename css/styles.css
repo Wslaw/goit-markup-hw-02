@@ -36,7 +36,7 @@ body {
 }
 
 .logo-web {
-  color: var(--iris, #4d5ae5);
+  color: var(--iris);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -47,7 +47,7 @@ body {
 }
 
 .logo-studio {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -76,7 +76,7 @@ body {
 }
 
 .address {
-  color: var(--slate, #434455);
+  color: var(--slate);
 
   font-size: 16px;
   font-style: normal;
@@ -91,7 +91,7 @@ body {
 }
 
 .hero {
-  background: var(--navyblue, #2e2f42);
+  background: var(--navyblue);
   color: var(--white);
   /* text-align: center; */
   font-size: 56px;
@@ -110,13 +110,12 @@ body {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
-  background: var(--iris, #4d5ae5);
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
+  background: --;
 }
 /* hover */
 .hero-btn:hover,
 .hero-btn:focus {
-  color: var(--white, #fff);
+  color: var(--white);
 
   /* Button Text */
   font-family: inherit;
@@ -125,12 +124,11 @@ body {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
-  background: var(--ocean, #404bbf);
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
+  background: var(--ocean);
 }
 
 .hero-feature {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
   /* Header 3 */
 
   font-size: 20px;
@@ -141,7 +139,7 @@ body {
 }
 
 .hero-text {
-  color: var(--slate, #434455);
+  color: var(--slate);
 
   font-size: 16px;
   font-style: normal;
@@ -151,7 +149,7 @@ body {
 }
 
 .title {
-  color: #2e2f42;
+  color: var(--navyblue);
   /* text-align: center; */
 
   font-size: 36px;
@@ -163,7 +161,7 @@ body {
 }
 
 .subtitle {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
 
   /* Header 3 */
 
@@ -175,7 +173,7 @@ body {
 }
 
 .subtitle-text {
-  color: var(--slate, #434455);
+  color: var(--slate);
 
   /* Body */
 
@@ -187,7 +185,7 @@ body {
 }
 
 .footer {
-  background: var(--navyblue, #2e2f42);
+  background: var(--navyblue);
   color: var(--cornflower, #e7e9fc);
 
   font-size: 16px;
@@ -201,7 +199,7 @@ body {
 }
 
 .footer .logo-studio {
-  color: var(--cloud, #f4f4fd);
+  color: var(--cloud);
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -212,7 +210,7 @@ body {
 }
 
 .btn-text {
-  color: var(--iris, #4d5ae5);
+  color: var(--iris);
   text-align: center;
 
   font-family: inherit;
@@ -224,7 +222,7 @@ body {
 }
 
 .title-portfolio {
-  color: var(--navyblue, #2e2f42);
+  color: var(--navyblue);
 
   font-size: 20px;
   font-style: normal;
@@ -234,7 +232,7 @@ body {
 }
 
 .subtitle-portfolio {
-  color: var(--slate, #434455);
+  color: var(--slate);
 
   font-size: 16px;
   font-style: normal;
